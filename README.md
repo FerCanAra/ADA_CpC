@@ -2,6 +2,10 @@
 
 Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11), Linux and MAC.
 
+
+![Visual_Studio_Code_1 35_icon svg](https://github.com/user-attachments/assets/0a87af1b-35b8-4a8c-b3df-47c717c9434f)  <img width="350" alt="gnatstudio-main" src="https://github.com/user-attachments/assets/5ddb8256-c372-4925-9b60-9cfb57f7f858" />
+
+
 > **Note:** Process tested with Windows 11 on 1st February 2025.
 
 # 1. Download Package
