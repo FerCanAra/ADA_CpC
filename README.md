@@ -50,13 +50,27 @@ Select the kind of crate you want to create:
   1. LIBRARY
   2. BINARY
 ```
+2. Para las licencias, pulsa 4 y presiona Enter.
+```
+Select a software license for the crate?
+  1. MIT OR Apache-2.0 WITH LLVM-exception
+  2. MIT
+  3. Apache-2.0 WITH LLVM-exception
+  4. Apache-2.0
+  5. BSD-3-Clause
+  6. LGPL-3.0-or-later
+  7. GPL-3.0-or-later WITH GCC-exception-3.1
+  8. GPL-3.0-or-later
+  9. Other...
+```
+Vaya pulsando Enter con las siguientes opciones, hasta que le aparezca ```Success: nombre_proyecto initialized successfully.```.
 3. Compila el proyecto
 ```
 alr build
 ```
 Ahora, pulse la tecla Windows y escriba VisualStduio. En el programa emergente, siga las siguientes instrucciones:
 
-1. Vaya a Archivo y abrir carpeta. Navegue hasta esta carpeta ```C:\Nombre_proyecto```.
+1. Vaya a Archivo y abrir carpeta. Navegue hasta esta carpeta ```C:\Users\usuario\nombre_proyecto```.
 2. Abra la acrpeta src y se encontrará un archivo llamado ```nombre_proyecto.adb```. Abralo pulsando encima de el y pegue el siguiente código:
 ```
 with Ada.Text_IO; use Ada.Text_IO;
