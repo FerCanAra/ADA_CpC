@@ -4,11 +4,11 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 > **Note:** Process tested with Windows 11 on 1st February 2025.
 
-### 1. Download install
+# 1. Download install
 
 Download all the necessary software to be used. We will use [VisualStudioCode](https://code.visualstudio.com/download) as a visualiser, [Alire](https://alire.ada.dev/) as manager and AdaCore as compiler. For the compiler, if your OS is Windows 10 or 11, download the file ```gnatstudio-25.0w-20240506-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases), if it's Linux 18.04 or later, download the file ```GNAT_Studio-x86_64.AppImage``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases) and, if you use MAC, download the file ```gnat-2020-20200818-x86_64-darwin-bin.dmg``` from [AdaCore - GNAT web](https://www.adacore.com/download/more)
 
-### 2. Package install
+# 2. Package install
 
 Para Windows o MAC, simplemente pulse dos veces en el ejecutador y instale los programas en la ruta predeterminada. Para Linux, siga los siguientes commandos:
 
@@ -21,7 +21,7 @@ Posteriormente, ejecuta la imagen con los siguientes commandos:
 ./GNAT_Studio-x86_64.AppImage --appimage-extract
 ./squashfs-root/usr/doinstall
 ```
-### 3. Añade las direcciones de los compiladores a SO (Solo usuarios de Windows 10 o 11)
+# 3. Añade las direcciones de los compiladores a SO (Solo usuarios de Windows 10 o 11)
 
 Ubica la carpeta donde instalaste GNAT Studio y Alire. Generalmente, estará en algo como ```C:\GNATSTUDIO\bin``` y ```C:\Program Files\Alire\bin```. Siga los siguientes pasos para añadir a variables de entorno:
 
@@ -33,11 +33,11 @@ Ubica la carpeta donde instalaste GNAT Studio y Alire. Generalmente, estará en 
 
 Verifica que se ha instalado correctamente pulsado la tecla Windows, escribe ```cmd``` y, en la ventana emergente, escriba ```gnatstudio``` y pulse Enter. Si se abre el compilador, se ha añadido correctamente la dirección.
 
-### 4. Configurar VisualStudioCode
+# 4. Configurar VisualStudioCode
 
 Es necesario establecer la conexión entre VisualSduio y ADA compiler. Para cada SO, es different:
 
-#### Para Windows
+### Para Windows
 
 Pulsa la tecla Windows, escribe ```Alire``` y, en la ventana emergente, vaya ejecutando los siguientes codigos:
 1. Cree un proyecto.
