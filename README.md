@@ -34,7 +34,7 @@ Locate the folder where you installed GNAT Studio and Alire. Generally, this wil
 2. Click on ‘Edit system environment variables’.
 3. In the ‘System Variables’ section, find the variable named Path and select Edit.
 4. Click New.
-5. Add the full path to the GNAT Studio bin directory ‘C:\GNATSTUDIO\bin’ and Alire ‘C:\Program Files “Alire\bin”.
+5. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` and Alire ``C:\Program Files “Alire\bin``.
 
 Verify that it has been installed correctly by pressing the Windows key, type ```cmd```, in the pop-up window, type ``gnatstudio`` and press Enter. If the compiler opens, the address has been added correctly.
 
@@ -56,7 +56,7 @@ Select the kind of crate you want to create:
   1. LIBRARY
   2. BINARY
 ```
-2. For licences, press 4 and press Enter.
+3. For licences, press 4 and press Enter.
 ```
 Select a software license for the crate?
   1. MIT OR Apache-2.0 WITH LLVM-exception
@@ -70,7 +70,7 @@ Select a software license for the crate?
   9. Other...
 ```
 Press Enter with the following options, until you get ```Success: project_name initialized successfully```.
-3. Compile the project
+4. Compile the project
 ```
 alr build
 ```
@@ -81,22 +81,18 @@ Now, press the Windows key and type VisualStduio. In the pop-up program, follow 
 ```
 with Ada.Text_IO; use Ada.Text_IO;
 
-procedure nombre_proyecto is
+procedure project_name is
 begin
-    Put_Line("Voy a aprobar CpC");
-end nombre_proyecto;
+    Put_Line("I am going to approve CpC");
+end project_name;
 ```
 3. Execute the project. This can be done in two ways:
    a) You can press the ‘Play’ button and watch the terminal that appears:
-```
-I am going to approve CpC
-```
    b) Run the following command in the Alire terminal:
 ```
 alr run
 ```
 In the terminal, the following should appear ```I am going to approve CpC```.
-
 
 # 5. Change the main
 
