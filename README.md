@@ -1,24 +1,32 @@
-# ADA_CpC
-Package to Install ADA in Visual Studio Code Windows 11
-# AUGMENTED REALITY FOR THE PROJECT AGRICOBIOT
+# ADA for Computer Control Students - University of Almería - B. in Electronic Engineering and Industrial Automation - 2024/2025
 
-##### GNAT STUDIO COMPILER
-[AdaCore from GNAT web](https://www.adacore.com/download/more)
-Download: gnat-2021-20210519-x86_64-windows64-bin.exe
+Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11), Linux and MAC.
 
-[AdaCore from GitHub](https://github.com/AdaCore/gnatstudio/releases)
-Dowload: gnatstudio-25.0w-20240506-x86_64-windows64-bin.exe
+> **Note:** Process tested with Windows 11 on 1st February 2025.
 
-[Alire](https://alire.ada.dev/)
+### 1. Download install
 
-# ADD PAHT TO WINDOWS
+Download all the necessary software to be used. We will use [VisualStudioCode](https://code.visualstudio.com/download) as a visualiser, [Alire](https://alire.ada.dev/) as manager and AdaCore as compiler. For the compiler, if your OS is Windows 10 or 11, download the file ```gnatstudio-25.0w-20240506-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases), if it's Linux 18.04 or later, download the file ```GNAT_Studio-x86_64.AppImage``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases) and, if you use MAC, download the file ```gnat-2020-20200818-x86_64-darwin-bin.dmg``` from [AdaCore - GNAT web](https://www.adacore.com/download/more)
 
-##### Ubica la carpeta donde instalaste GNAT Studioy Alire. Generalmente, estará en algo como:
+### 2. Package install
+
+Para Windows o MAC, simplemente pulse dos veces en el ejecutador y instale los programas en la ruta predeterminada. Para Linux, siga los siguientes commandos:
+
+Ve a la ubicación de descarga del archive ```GNAT_Studio-x86_64.AppImage``` y abra una terminal. Ejecuta este comando:
 ```
-C:\GNATSTUDIO\bin
-C:\Program Files\Alire\bin
+chmod -x GNAT_Studio-x86_64.AppImage
 ```
+Posteriormente, ejecuta la imagen con los siguientes commandos:
+```
+./GNAT_Studio-x86_64.AppImage --appimage-extract
+./squashfs-root/usr/doinstall
+```
+### 2. Añade las direcciones de los compiladores a SO (Solo usuarios de Windows 10 o 11)
+
+Ubica la carpeta donde instalaste GNAT Studio y Alire. Generalmente, estará en algo como ```C:\GNATSTUDIO\bin``` y ```C:\Program Files\Alire\bin```.
 > **Note:** Asegúrate de encontrar el archivo ejecutable principal "gnatstudio.exe".
+
+
 
 # Añadir a variables de entorno
 1. Presiona Win + S y escribe "Variables de entorno".
