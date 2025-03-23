@@ -7,7 +7,7 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 
 
-> **Note:** Process tested with Windows 11 on 1st February 2025.
+> **Note:** Process tested with Windows 11 on 25th March 2025.
 
 # 1. Download Package
 
@@ -74,7 +74,7 @@ Press Enter with the following options, until you get ```Success: project_name i
 ```
 alr build
 ```
-Now, press the Windows key and type VisualStduio. In the pop-up program, follow the instructions below:
+Now, press the Windows key and type VisualStudio. In the pop-up program, follow the instructions below:
 
 1. Go to File and open folder. Navigate to this folder ```C:\Users\user\project_name```.
 2. Open the src folder and you will find a file called ``project_name.adb``. Open it by clicking on it and paste the following code:
