@@ -71,6 +71,7 @@ Select a software license for the crate?
 ```
 Press Enter with the following options, until you get ```Success: project_name initialized successfully```.
 4. Compile the project
+Enter the folder created with ```cd project_name``` and run:
 ```
 alr build
 ```
