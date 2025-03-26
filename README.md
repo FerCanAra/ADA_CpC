@@ -108,7 +108,16 @@ by:
 ```
 Close and reopen VisualStudio to load the new address. Run play again. Every time you want to change the main, you should do it this way.
 
+# Typical warnings (not errors, just recommendations for improvement):
 
+The main warnings that will be displayed on the screen are described:
+1. ```(style) space required [-gnatyt]: ```: They indicate that a space is missing in the code. For example, ```:Steering_Angle:=Steering_Angle+1.0;```: should be written ```:Steering_Angle := Steering_Angle + 1.0;```:.
+2. ```(style) this line is too long [-gnatyM]```: Indicate that a line exceeds the character limit (default 80). To solve this, split the line into several lines.
+3. ```variable "Hum" is not referenced [-gnatwu]```: It is defined, but not used.
+4. ```Valor_Otro_Indice" is not modified, could be declared constant```: You define it, use it, but do not change its value. Suggest making it fixed to make it more secure.
+5. ```trailing spaces not permitted [-gnatyb]```: There are extra spaces at the end of a line. It is suggested that they be removed to make the program faster. For example: ```:X := 10;␣␣␣   -- ← estos espacios al final no se ven, pero están.```.
+6. ```useless assignment to "Lectura", value overwritten at line 230 [-gnatwm]```: The same variable is simply defined twice.
+7. ```no entities of "Ada.Numerics.Elementary_Functions" are referenced [-gnatwu]``` follow by ```use clause for package "Elementary_Functions" has no effect [-gnatwu]```: A library is declared but not used.
 
 
 
