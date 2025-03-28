@@ -34,7 +34,7 @@ Locate the folder where you installed GNAT Studio and Alire. Generally, this wil
 2. Click on ‘Edit system environment variables’.
 3. In the ‘System Variables’ section, find the variable named Path and select Edit.
 4. Click New.
-5. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` and Alire ``C:\Program Files “Alire\bin``.
+5. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` and Alire ``C:\Program Files\Alire\bin``.
 
 Verify that it has been installed correctly by pressing the Windows key, type ```cmd```, in the pop-up window, type ``gnatstudio`` and press Enter. If the compiler opens, the address has been added correctly.
 
