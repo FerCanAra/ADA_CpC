@@ -1,6 +1,6 @@
 ## ADA for Computer Control Students - University of Almería - B. in Electronic Engineering and Industrial Automation - 2024/2025
 
-Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11), Linux and MAC.
+Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11), Linux and MAC (NO TESTED).
 
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/0a87af1b-35b8-4a8c-b3df-47c717c9434f" width="200" height="200" /> <img width="400" height="200" alt="gnatstudio-main" src="https://github.com/user-attachments/assets/5ddb8256-c372-4925-9b60-9cfb57f7f858" /> </p>
