@@ -1,0 +1,10 @@
+name = "p2_cpc_2025"
+description = "Project as a practicum 2 of the subject Computer Control 2025. University of Almería"
+version = "0.1.0-dev"
+
+authors = ["Fernando Cañadas Aránega"]
+maintainers = ["Fernando Cañadas Aránega <fernando.ca@ual.es>"]
+maintainers-logins = ["FerCanAra"]
+licenses = "Apache-2.0"
+website = "https://linktr.ee/FerCanAra"
+tags = []

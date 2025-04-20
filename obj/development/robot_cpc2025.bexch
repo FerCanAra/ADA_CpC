@@ -1,0 +1,26 @@
+[GENERATED OBJECT FILE]
+b__robot_cpc2025.o
+[PROJECT FILES]
+C:\GNAT_Project\p2_cpc_2025\p2_cpc_2025.gpr
+20250420175528 c6ec9d1e8b63073e98b2ad9354577aec
+C:\GNAT_Project\p2_cpc_2025\config\p2_cpc_2025_config.gpr
+20250420175436 36c726823ce2ae49ced9068873526f6b
+[BOUND OBJECT FILES]
+C:\GNAT_Project\p2_cpc_2025\obj\development\Robot_Ackermann.o
+C:\GNAT_Project\p2_cpc_2025\obj\development\Robot_Cpc2025.o
+[GENERATED SOURCE FILES]
+b__robot_cpc2025.ads
+b__robot_cpc2025.adb
+b__robot_cpc2025.ali
+[RESULTING OPTIONS]
+-LC:\GNAT_Project\p2_cpc_2025\obj\development\
+-LC:\GNAT_Project\p2_cpc_2025\obj\development\
+-LC:/users/fernando/appdata/local/alire/cache/toolchains/gnat_native_14.2.1_2540cccb/lib/gcc/x86_64-w64-mingw32/14.2.0/adalib/
+-static
+-static-libgcc
+C:/users/fernando/appdata/local/alire/cache/toolchains/gnat_native_14.2.1_2540cccb/lib/gcc/x86_64-w64-mingw32/14.2.0/adalib/libgnarl.a
+C:/users/fernando/appdata/local/alire/cache/toolchains/gnat_native_14.2.1_2540cccb/lib/gcc/x86_64-w64-mingw32/14.2.0/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
+-lm

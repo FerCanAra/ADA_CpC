@@ -1,0 +1,234 @@
+V "GNAT Lib v14"
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_PROTECTED_ENTRIES=2
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U robot_ackermann%b	robot_ackermann.adb	da39c832 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z system%s		system.ads		system.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U robot_ackermann%s	robot_ackermann.ads	e868b9cd EE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z system%s		system.ads		system.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20240801081714 76789da1 ada%s
+D a-except.ads		20240801081714 e7970cd9 ada.exceptions%s
+D a-finali.ads		20240801081714 bf4f806b ada.finalization%s
+D a-numeri.ads		20240801081714 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20240801081714 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20240801081714 5506716e ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20240801081714 d11673fd ada.real_time%s
+D a-stream.ads		20240801081714 119b8fb3 ada.streams%s
+D a-string.ads		20240801081714 90ac6797 ada.strings%s
+D a-sttebu.ads		20240801081714 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240801081714 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240801081714 9eaa38c6 ada.tags%s
+D a-unccon.ads		20240801081714 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240801081714 9111f9c1 interfaces%s
+D i-c.ads		20240801081714 aac316ce interfaces.c%s
+D i-cstrin.ads		20240801081714 5409c1a4 interfaces.c.strings%s
+D robot_ackermann.ads	20250329152818 397eca30 robot_ackermann%s
+D robot_ackermann.adb	20250417120352 e0af3f1e robot_ackermann%b
+D system.ads		20240801081714 e4f8b086 system%s
+D s-atacco.ads		20240801081714 5868e3ba system.address_to_access_conversions%s
+D s-exctab.ads		20240801081714 91bef6ef system.exception_table%s
+D s-fatflt.ads		20240801081714 11beb392 system.fat_flt%s
+D s-fatgen.ads		20240801081714 d28c6cfe system.fat_gen%s
+D s-finroo.ads		20240801081714 4ff27390 system.finalization_root%s
+D s-multip.ads		20240801081714 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20240801081714 97504df8 system.os_interface%s
+D s-parame.ads		20240801081714 3597fc11 system.parameters%s
+D s-putima.ads		20240801081714 17291fe4 system.put_images%s
+D s-secsta.ads		20240801081714 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240801081714 df77073e system.soft_links%s
+D s-stache.ads		20240801081714 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20240801081714 5be75682 system.stack_usage%s
+D s-stalib.ads		20240801081714 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240801081714 ccded4e8 system.storage_elements%s
+D s-tasinf.ads		20240801081714 601f6b72 system.task_info%s
+D s-taspri.ads		20240801081714 a1350802 system.task_primitives%s
+D s-taprop.ads		20240801081714 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20240801081714 ebc4edbe system.tasking%s
+D s-taprob.ads		20240801081714 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20240801081714 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20240801081714 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20240801081714 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240801081714 fa2a7f59 system.unsigned_types%s
+D s-win32.ads		20240801081714 15ac53fb system.win32%s
+G a e
+G c Z s b [initialize_robot robot_ackermann 20 14 none]
+G c Z s b [x robot_ackermann 23 13 none]
+G c Z s b [y robot_ackermann 24 13 none]
+G c Z s b [theta robot_ackermann 25 13 none]
+G c Z s b [v robot_ackermann 27 14 none]
+G c Z s b [psi robot_ackermann 28 14 none]
+G c Z s b [read robot_ackermann__agricobiot 36 13 none]
+G c Z s b [write robot_ackermann__agricobiot 37 13 none]
+G c Z s b [initialise robot_ackermann__agricobiot 38 17 none]
+G c Z s b [agricobiot__update_statesN robot_ackermann 49 7 none]
+G c Z s b [agricobiot__update_statesP robot_ackermann 49 7 none]
+G c Z s b [agricobiot__initialiseN robot_ackermann 38 7 none]
+G c Z s b [agricobiot__initialiseP robot_ackermann 38 7 none]
+G c Z s s [robot_stateIP robot_ackermann 7 9 none]
+G c Z s s [agricobiotVDI robot_ackermann 35 4 none]
+G c Z s s [agricobiotVDF robot_ackermann 35 4 none]
+G c Z s s [agricobiotVIP robot_ackermann 35 4 none]
+G c Z s s [P3sIP robot_ackermann 36 7 none]
+G c Z s s [P7sIP robot_ackermann 37 7 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r25 18|1r6 1r45 98r39
+X 4 a-numeri.ads
+16K13*Numerics 35e17 18|1r10 1r49 98r43
+21N4*Pi 18|98r52
+X 5 a-nuelfu.ads
+18K22*Elementary_Functions[6|39] 18|1w19 1r58
+X 6 a-ngelfu.ads
+95V13*Sin{float} 18|101s26[5|18]
+105V13*Cos{float} 18|100s26[5|18]
+115V13*Tan{float} 18|98s29[5|18]
+X 7 a-reatim.ads
+39K13*Real_Time 186e18 17|1w10 1r29
+50O9*Time<duration> 17|40r20 49r44 18|79r44 86r29
+55O9*Time_Span<duration> 18|87r29 88r29
+62V13*Clock{50O9} 18|51s15 93s16
+72V14*"-"{55O9} 18|94s19
+84V14*"+"{55O9} 18|103s24
+90V14*"*"{55O9} 18|94s25
+104V14*"<="{boolean} 18|96r20
+120V13*Milliseconds{55O9} 18|103s26
+123V13*Seconds{55O9} 18|87s42
+X 17 robot_ackermann.ads
+3K9*Robot_Ackermann 32E12 53l5 53e20 18|3b14 108l5 108t20
+5W9*AgriCobIoT 20r55 23r39 24r39 25r43 27r40 28r42 40E7 52l8 52e18 18|6r55
+. 13r39 20r39 27r43 35r40 40r42 47b19 107l8 107t18
+7R9*Robot_State 17e14 20r71 38r40 46r20 50r57 18|6r71 48r37 80r38
+8f7*L{float} 18|85r48
+9f7*x{float}
+10f7*y{float}
+11f7*theta{float}
+12f7*v{float}
+13f7*psi{float}
+14f7*Ts{float}
+15b7*initialised{boolean}
+16i7*simulation_Speed{positive} 18|90r48
+20U14*Initialize_Robot 20=32 20>67 18|6b14 9l8 9t24
+20w32 Robot_control{5W9} 18|6b32 8r7
+20r67 M{7R9} 18|6b67 8r33
+23V13*x{float} 23=16 18|13b13 18l8 18t9
+23w16 Robot_control{5W9} 18|13b16 16r7
+24V13*y{float} 24=16 18|20b13 25l8 25t9
+24w16 Robot_control{5W9} 18|20b16 23r7
+25V13*theta{float} 25=20 18|27b13 32l8 32t13
+25w20 Robot_control{5W9} 18|27b20 30r7
+27U14*v 27=17 27>52 18|35b14 38l8 38t9
+27w17 Robot_control{5W9} 18|35b17 37r7
+27f52 Value{float} 18|35b52 37r28
+28U14*psi 28=19 28>54 18|40b14 43l8 43t11
+28w19 Robot_control{5W9} 18|40b19 42r7
+28f54 Value{float} 18|40b54 42r28
+32I12 odom{positive} 36r52 18|55r49
+33I12 System{positive} 37r54 18|68r51
+36Y13 Read 36<19 36>38 18|16s21 23s21 30s21 55b13 66l11 66t15
+36f19 Value{float} 18|60m16 62m16 64m16
+36i38 odometry{32I12} 18|58r15
+37Y13 Write 37>20 37>38 18|37s21 42s21 68b13 77l11 77t16
+37f20 Value{float} 18|73r21 75r23
+37i38 navegation{33I12} 18|71r15
+38U17 initialise 38>29 18|8s21 48b17 53l11 53t21
+38r29 Model{7R9} 18|48b29 50r15
+40o7 t{7|50O9} 18|51r10 57r25 70r25
+41f7 x{float} 18|57r28 60r25 70r28
+42f7 y{float} 18|57r31 62r25 70r31
+43f7 theta{float} 18|57r34 64r25 70r34
+44f7 v{float} 18|57r41 70r41 73r16
+45f7 psi{float} 18|57r44 70r44 75r16
+46r7 M{7R9} 18|50r10 57r49 70r49
+47b7 initialised{boolean} 18|52r10 55r60 68r64
+49U17 update_states 49=32 49=50 49=68 49=86 50=10 50=28 50>48 18|57s10 70s10
+. 79b17 105l11 105t24
+49o32 t{7|50O9} 18|79b32 86r42 93m10 94r17
+49f50 x{float} 18|79b50 82r42 100m13 100r18
+49f68 y{float} 18|79b68 83r42 101m13 101r18
+49f86 theta{float} 18|79b87 84r42 99m13 99r22 100r30 101r30
+50f10 v{float} 18|79b109 98r25 100r22 101r22
+50f28 psi{float} 18|80b10 98r33
+50r48 Model{7R9} 18|80b30 85r42 90r42
+X 18 robot_ackermann.adb
+14f7 x_value{float} 16m27 17r14
+21f7 y_value{float} 23m27 24r14
+28f7 theta_value{float} 30m27 31r14
+55f19 Value{float}
+55i38 odometry{17|32I12}
+68f20 Value{float}
+68i38 navegation{17|33I12}
+82f10 x_r{float}
+83f10 y_r{float}
+84f10 theta_r{float} 98m13 99r30
+85f10 L{float} 98r67
+86o10 t0{7|50O9} 94r21
+87o10 dt0{7|55O9} 96r16 103m13 103r20
+88o10 dt{7|55O9} 94m10 96r23
+89f10 t_step{float} 99r40 100r39 101r39 103r49
+90i10 simulation_speed{positive} 94r36
+X 32 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+

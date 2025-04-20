@@ -1,0 +1,223 @@
+V "GNAT Lib v14"
+M P W=8
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U robot_cpc2025%b	robot_cpc2025.adb	fca80f91 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W robot_ackermann%s	robot_ackermann.adb	robot_ackermann.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.img_flt%s	s-imgflt.ads		s-imgflt.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20240801081714 76789da1 ada%s
+D a-except.ads		20240801081714 e7970cd9 ada.exceptions%s
+D a-finali.ads		20240801081714 bf4f806b ada.finalization%s
+D a-ioexce.ads		20240801081714 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20240801081714 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20240801081714 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20240801081714 5506716e ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20240801081714 d11673fd ada.real_time%s
+D a-retide.ads		20240801081714 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20240801081714 119b8fb3 ada.streams%s
+D a-string.ads		20240801081714 90ac6797 ada.strings%s
+D a-sttebu.ads		20240801081714 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240801081714 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240801081714 9eaa38c6 ada.tags%s
+D a-textio.ads		20240801081714 34ef47de ada.text_io%s
+D a-unccon.ads		20240801081714 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240801081714 9111f9c1 interfaces%s
+D i-c.ads		20240801081714 aac316ce interfaces.c%s
+D i-cstrin.ads		20240801081714 5409c1a4 interfaces.c.strings%s
+D i-cstrea.ads		20240801081714 ffd01b9d interfaces.c_streams%s
+D robot_ackermann.ads	20250329152818 397eca30 robot_ackermann%s
+D robot_cpc2025.adb	20250420180908 23c7cc9e robot_cpc2025%b
+D system.ads		20240801081714 e4f8b086 system%s
+D s-atacco.ads		20240801081714 5868e3ba system.address_to_access_conversions%s
+D s-crtl.ads		20240801081714 beb39b9e system.crtl%s
+D s-exctab.ads		20240801081714 91bef6ef system.exception_table%s
+D s-fatflt.ads		20240801081714 11beb392 system.fat_flt%s
+D s-fatgen.ads		20240801081714 d28c6cfe system.fat_gen%s
+D s-ficobl.ads		20240801081714 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20240801081714 4ff27390 system.finalization_root%s
+D s-imager.ads		20240801081714 45c7157d system.image_r%s
+D s-imageu.ads		20240801081714 b0b50650 system.image_u%s
+D s-imgflt.ads		20240801081714 d12816b5 system.img_flt%s
+D s-imguns.ads		20240801081714 c4e23690 system.img_uns%s
+D s-memory.ads		20240801081714 18949c1a system.memory%s
+D s-multip.ads		20240801081714 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20240801081714 97504df8 system.os_interface%s
+D s-parame.ads		20240801081714 3597fc11 system.parameters%s
+D s-powflt.ads		20240801081714 a51ab9b8 system.powten_flt%s
+D s-putima.ads		20240801081714 17291fe4 system.put_images%s
+D s-secsta.ads		20240801081714 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240801081714 df77073e system.soft_links%s
+D s-stache.ads		20240801081714 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20240801081714 5be75682 system.stack_usage%s
+D s-stalib.ads		20240801081714 1c9580f6 system.standard_library%s
+D s-stalib.adb		20240801081714 eb464a47 system.standard_library%b
+D s-stoele.ads		20240801081714 ccded4e8 system.storage_elements%s
+D s-tasinf.ads		20240801081714 601f6b72 system.task_info%s
+D s-taspri.ads		20240801081714 a1350802 system.task_primitives%s
+D s-taprop.ads		20240801081714 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20240801081714 ebc4edbe system.tasking%s
+D s-taprob.ads		20240801081714 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20240801081714 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20240801081714 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240801081714 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20240801081714 b0fcd073 system.val_spec%s
+D s-vauspe.ads		20240801081714 89269ba5 system.value_u_spec%s
+D s-vs_uns.ads		20240801081714 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20240801081714 d9032363 system.wch_con%s
+D s-win32.ads		20240801081714 15ac53fb system.win32%s
+G a e
+G c Z b b [robot_cpc2025 standard 15 11 none]
+G r s agricobiot [robot_cpc2025 standard 15 11 none] [agricobiotVIP robot_ackermann 35 4 none]
+G r l agricobiot [robot_cpc2025 standard 15 11 none] [agricobiotVDI robot_ackermann 35 4 none]
+G r k agricobiot [robot_cpc2025 standard 15 11 none] [agricobiotVDF robot_ackermann 35 4 none]
+G r c none [robot_cpc2025 standard 15 11 none] [initialize_robot robot_ackermann 20 14 none]
+G r c none [robot_cpc2025 standard 15 11 none] [x robot_ackermann 23 13 none]
+G r c none [robot_cpc2025 standard 15 11 none] [y robot_ackermann 24 13 none]
+G r c none [robot_cpc2025 standard 15 11 none] [theta robot_ackermann 25 13 none]
+G r c none [robot_cpc2025 standard 15 11 none] [v robot_ackermann 27 14 none]
+G r c none [robot_cpc2025 standard 15 11 none] [psi robot_ackermann 28 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 22|10r6 10r25 11r6 11r23 12r6 12r45 117r34 117r75 117r101 135r39
+. 136r40 146r70
+X 5 a-numeri.ads
+16K13*Numerics 35e17 22|12r10 12r49 117r38 117r79 117r105 135r43 136r44 146r74
+21N4*Pi 22|117r47 117r88 117r114 135r52 136r53 146r83
+X 6 a-nuelfu.ads
+18K22*Elementary_Functions[7|39] 22|12w19 12r58
+X 7 a-ngelfu.ads
+53V13*Sqrt{float} 22|124s27[6|18]
+148V13*Arctan{float} 22|110s18[6|18]
+149f7 Y{float} 22|110r25[6|18]
+150f7 X{float} 22|110r35[6|18]
+X 8 a-reatim.ads
+39K13*Real_Time 186e18 22|10w10 10r29
+50O9*Time<duration> 22|20r19
+55O9*Time_Span<duration> 22|21r9
+62V13*Clock{50O9} 22|50s12 51s12
+66V14*"+"{50O9} 22|52s15 72s19 75s21 79s21 83s21 87s21 91s21 150s14
+81V14*">="{boolean} 22|72r13 75r15 79r15 83r15 87r15 91r15 151r19
+120V13*Milliseconds{55O9} 22|21s22
+123V13*Seconds{55O9} 22|52s17 72s21 75s23 79s23 83s23 87s23 91s23
+X 15 a-textio.ads
+58K13*Text_IO 785e16 22|11w10 11r27
+284U14*New_Line 22|148s7
+565U14*Put_Line 22|143s7 144s7 145s7 146s7 147s7
+X 21 robot_ackermann.ads
+3K9*Robot_Ackermann 53e20 22|13w6 13r27
+5W9*AgriCobIoT 52e18 22|36r20
+7R9*Robot_State 17e14 22|37r8
+8f7*L{float} 22|45m6
+14f7*Ts{float} 22|46m6
+20U14*Initialize_Robot 22|47s4
+23V13*x{float} 22|98s22
+24V13*y{float} 22|99s22
+25V13*theta{float} 22|100s22
+27U14*v 22|139s7
+28U14*psi 22|140s7
+X 22 robot_cpc2025.adb
+15U11*Robot_CpC2025 15b11 156l5 156t18
+18i4 tsim{positive} 52r26
+19f4 T_muestreo{float} 21r45 46r12
+20o4 t{8|50O9} 50m4 72r11 75r13 79r13 83r13 87r13 91r13 150m7 150r12 151r17
+. 152r19
+20o7 t0{8|50O9} 51m4 52r12 72r16 75r18 79r18 83r18 87r18 91r18
+20o11 tfin{8|50O9} 52m4 151r22
+21o4 Ts{8|55O9} 150r16
+24f4 rx{float} 55m4 73m10 76m13 80m13 84m13 88m13 92m13 103r18
+24f8 ry{float} 56m4 74m10 77m13 81m13 85m13 89m13 93m13 104r18
+24f12 pos_x{float} 57m4 98m7 103r23 147r46
+24f19 pos_y{float} 58m4 99m7 104r23 147r78
+24f26 ori_theta{float} 59m4 100m7 114r25
+24f37 e_x{float} 60m4 103m7 107r10 110r40 121r14 124r32 144r43
+24f42 e_y{float} 61m4 104m7 107r24 110r30 121r36 124r41 144r73
+24f47 v_ref{float} 62m4 122m10
+24f54 v_real{float} 63m4 124m10 128m7 128r27 129m7 129r27 139r24 145r44
+24f62 beta{float} 64m4 108m10 110m10 114r18
+24f68 e_theta{float} 65m4 114m7 117m7 117r18 117r65 132r26
+24f77 psi_real{float} 66m4 132m7 135m7 135r29 136m7 136r29 140r26 146r51
+25f4 K_nu{float} 67m4 124r20
+25f10 K_po{float} 68m4 132r19
+25f16 Long{float} 44m4 45r11
+26i4 Ngrupo{integer} 43m4 44r26
+27f4 CpC25{float} 44r12
+28A9 Target_X(float)<integer> 32r26
+29A9 Target_Y(float)<integer> 33r26
+32a4 Target_X_r{28A9} 73r16 76r19 80r19 84r19 88r19 92r19
+33a4 Target_Y_r{29A9} 74r16 77r19 81r19 85r19 89r19 93r19
+36w4 Control_Robot{21|5W9} 47m22 47r22 98m25 98r25 99m25 99r25 100m29 100r29
+. 139m9 139r9 140m11 140r11
+37r4 M{21|7R9} 45m4 46m4 47r37
+X 23 system.ads
+67M9*Address
+X 35 s-memory.ads
+51V13*Alloc{23|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{23|67M9} 103i<c,__gnat_realloc>22
+X 44 s-stausa.ads
+207U14*Initialize 208i<c,__gnat_stack_usage_initialize>22
+272U14*Output_Results 276i<c,__gnat_stack_usage_output_results>22
+X 46 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+
