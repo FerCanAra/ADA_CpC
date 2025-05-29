@@ -9,6 +9,10 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 > **Note:** Process tested with Windows 11 on 31th May 2025.
 
+Author: Fernando Cañadas Aánega, PhD student in Robotics in agriculture at the University of Almeria, Spain.
+Gmail: fernando.ca@ual.es
+Website: https://linktr.ee/FerCanAra
+
 # 1. Download Package
 
 Download all the necessary software to be used. We will use [VisualStudioCode](https://code.visualstudio.com/download) as a visualiser, [Alire](https://alire.ada.dev/) as manager and AdaCore as compiler. For the compiler, if your OS is Windows 10 or 11, download the file ```gnatstudio-25.0w-20240506-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases), and if it's Linux 18.04 or later, download the file ```GNAT_Studio-x86_64.AppImage``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases).
