@@ -9,7 +9,7 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 > **Note:** Process tested with Windows 11 on 31th May 2025.
 
-*Author: Fernando Cañadas Aánega, PhD student in Robotics in agriculture at the University of Almeria, Spain.*
+*Author: Fernando Cañadas Aránega, PhD student in Robotics in agriculture at the University of Almeria, Spain.*
 
 *Gmail: fernando.ca@ual.es*
 
