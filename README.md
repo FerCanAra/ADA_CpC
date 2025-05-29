@@ -108,6 +108,14 @@ by:
 ```
 Close and reopen VisualStudio to load the new address. Run play again. Every time you want to change the main, you should do it this way.
 
+# 6. Use this simulator
+
+To run this project, you have two options:
+
+1. Start a new project, as explained in section 4, and copy the files inside the src folder of this one to the new project (Recommended). Change the ```.gpr ``` and restart VSC.
+
+2. Clone this repository and change the correct addresses in the configuration files. Restart the PC
+
 # Typical warnings (not errors, just recommendations for improvement):
 
 The main warnings that will be displayed on the screen are described:
