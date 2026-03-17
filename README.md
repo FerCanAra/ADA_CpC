@@ -1,4 +1,4 @@
-## ADA for Computer Control Students - University of Almería - B. in Electronic Engineering and Industrial Automation - 2024/2025
+## ADA for Computer Control Students - University of Almería - B. in Electronic Engineering and Industrial Automation - 2025/2026
 
 Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11)and Linux (Not available for MAC).
 
