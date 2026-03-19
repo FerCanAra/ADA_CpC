@@ -1,11 +1,8 @@
 ## ADA for Computer Control Students - University of Almería - B. in Electronic Engineering and Industrial Automation - 2025/2026
 
-Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11) and Linux (Not available for MAC).
-
+Repository with the necessary packages and instructions for programming ADA in VisualStudioCode (VSC) on Windows (10 and 11) and Linux (Not available for MAC).
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/0a87af1b-35b8-4a8c-b3df-47c717c9434f" width="200" height="200" /> <img width="400" height="200" alt="gnatstudio-main" src="https://github.com/user-attachments/assets/5ddb8256-c372-4925-9b60-9cfb57f7f858" /> </p>
-
-
 
 > **Note:** Process tested with Windows 11 on 31th May 2025.
 
@@ -41,23 +38,25 @@ Subsequently, run the image with the following commands:
 ```
 # 3. Add compiler addresses to OS (Windows 10 or 11 users only)
 
-Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program/_Files\Alire\bin``. Follow the steps below to add environment variables:
+Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program Files\Alire\bin `` (Note: These paths must appear exactly as shown. If you copy them directly from this repository, they are often copied incorrectly to the clipboard). Follow the steps below to add environment variables:
 
 1. Press Win + S and type ``Variables de entorno``.
 2. Click on ‘Edit system environment variables’.
-3. In the ‘System Variables’ section, find the variable named Path and select Edit.
-4. Click New.
-5. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` in system variables and Alire ``C:\Program/_Files\Alire\bin`` in user variables.
+3. Click on ``Variables de entorno...`` in the bottom right-hand corner.
+4. In the ``Variables de usuario para user`` section, find the variable named ``Path`` and select Edit.
+5. Click New.
+6. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` in system variables and save it.
+7. Ahora, entra en ``Variables para el entorno``, find the variable named ``Path`` and select Edit.
+8. Click New.
+9. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` and Alire ``C:\Program Files\Alire\bin`` in user variables. Save it
 
 Verify that it has been installed correctly by pressing the Windows key, type ```cmd```, in the pop-up window, type ``gnatstudio`` and press Enter. If the compiler opens, the address has been added correctly.
 
-# 4. Configure VisualStudioCode
+# 4. Configure VisualStudioCode with ADA compiler
 
-It is necessary to establish the connection between VisualSduio and ADA compiler. For each OS, it is different:
+#### Create an ADA project
 
-### For Windows
-
-Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C/:../User):
+First, create a folder on your desktop called ```Ada_project```. Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C:\Users\<your_user>). Now, navigate to that folder using the following command: `cd .\Desktop\Ada_project\`. Once you are in that directory, create a project by following these steps:
 
 1. Create a project.
 ```
@@ -89,10 +88,16 @@ Enter the folder created with ```cd project_name``` and run:
 ```
 alr build
 ```
+You must return ```Success: Build finished successfully in x seconds.``` 
+
+#### Configure VisualStudioCode (VSC)
+
 Now, press the Windows key and type VisualStudio. In the pop-up program, follow the instructions below:
 
-1. Go to File and open folder. Navigate to this folder ```C:\Users\user\project_name```.
-2. Open the src folder and you will find a file called ``project_name.adb``. Open it by clicking on it and paste the following code:
+1. Go to Extensions, search for ``` Ada & Spark```  and install it. Restart VSC by closing it and reopening it.
+2. Go to File and open folder. Navigate to this folder ```C:\Users\<your_user>\Ada_project```.
+3. Wait a few seconds, then select the file you want to run from the search bar (Visual Studio will suggest the correct one).
+4. Open the src folder, and you will find a file called ``project_name.adb``. Open it by clicking on it and paste the following code:
 ```
 with Ada.Text_IO; use Ada.Text_IO;
 
