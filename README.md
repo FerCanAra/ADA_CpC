@@ -20,23 +20,28 @@ We will use [Visual Studio Code](https://code.visualstudio.com/download) as our 
 
 #### 1.1. Programming with Visual Studio Code and GNAT
 
-If your operating system is Windows 10 or 11, download the compiler ```gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
+If your operating system is Windows 10 or 11, download the compiler `gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases) and the visualizer [GNATSTUDIO](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=sharing). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
 
 #### 1.2. Programming using GNAT Studio only
 
 For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder and download the file ‘GNAT_CpC.zip’. This interface is already fully configured; you simply need to follow these steps:
 
-1. Press the Windows key, type ```cmd```, then in the pop-up window, type ``gnatstudio`` and press Enter.
-2. In the application window, click ```Create New Project```.
-3. Select ```Simple Ada Project```.
-4. Choose a save location and enter a name.
-5. Click ```Apply```.
+1. Unzip GNAT_CpC.zip IN ```C:```.
+2. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
+3. In the application window, click ```Create New Project```.
+4. Select ```Simple Ada Project```.
+5. Choose a save location and enter a name.
+6. Click ```Apply```.
    
 You can skip straight to point 6.
 
 # 2. Package install
 
-For Windows, simply double-click on the launcher and install the programs in the default path. For Linux, follow the commands below:
+#### 2.1. For windows
+
+Double-click on the launcher of "AdaCore", "VSC" and "Alire", and install the programs in the default path. For "GNATSTUDIO", Unzip GNAT_CpC.zip IN ```C:```. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
+
+#### 2.2. For Linux
 
 Go to the download location of the ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz```, unzip the file, go into the directory and open a terminal. Run this command:
 ```
@@ -70,8 +75,9 @@ First, create a folder on your desktop called ```Ada_project```. Press the Windo
 
 1. Create a project.
 ```
-alr init project_name
+alr init --bin project_name
 ```
+Espere unos segundos a que se instale msys2 de froma automatica.
 2. In the next action, press 2 and press Enter.
 ```
 Select the kind of crate you want to create:
