@@ -22,7 +22,13 @@ If your operating system is Windows 10 or 11, download the compiler ```gnatstudi
 
 #### 1.2. Programming using GNAT Studio only
 
-For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder and download the file ‘GNAT_CpC.zip’
+For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder and download the file ‘GNAT_CpC.zip’. This interface is already fully configured; you simply need to follow these steps:
+
+1. Press the Windows key, type ```cmd```, then in the pop-up window, type ``gnatstudio`` and press Enter.
+2. In the application window, click ```Create New Project```.
+3. Select ```Simple Ada Project```.
+4. Choose a save location and enter a name.
+5. Click ```Apply```.
 
 # 2. Package install
 
