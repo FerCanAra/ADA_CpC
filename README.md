@@ -12,6 +12,8 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 *Website: https://linktr.ee/FerCanAra*
 
+*LICENCE: Intellectual property patent no. 2601204317192 held by [Safe Creative](https://www.safecreative.org/es)*
+
 # 1. Download Package
 
 We will use [Visual Studio Code](https://code.visualstudio.com/download) as our editor, [Alire](https://alire.ada.dev/) as our IDE, and AdaCore as our compiler. 
