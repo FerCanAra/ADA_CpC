@@ -18,7 +18,7 @@ We will use [Visual Studio Code](https://code.visualstudio.com/download) as our 
 
 #### 1.1. Programming with Visual Studio Code and GNAT
 
-If your operating system is Windows 10 or 11, download the compiler ```gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases).
+If your operating system is Windows 10 or 11, download the compiler ```gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
 
 #### 1.2. Programming using GNAT Studio only
 
@@ -29,6 +29,8 @@ For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/fol
 3. Select ```Simple Ada Project```.
 4. Choose a save location and enter a name.
 5. Click ```Apply```.
+   
+You can skip straight to point 6.
 
 # 2. Package install
 
@@ -139,6 +141,8 @@ To run this project, you have two options:
 1. Start a new project, as explained in section 4, and copy the files inside the src folder of this one to the new project (Recommended). Change the ```.gpr ``` and restart VSC.
 
 2. Clone this repository and change the correct addresses in the configuration files. Restart the PC
+
+3. For users who only use GnatStudio: Click on the pencil icon just above your main folder, go to ```main```, click on ```-``` to delete the existing entry, and add the new one by clicking on ```+```(note: there should only be one entry under “Main Files”)
 
 # Typical warnings (not errors, just recommendations for improvement):
 
