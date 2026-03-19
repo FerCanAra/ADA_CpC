@@ -19,11 +19,11 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 We will use [Visual Studio Code](https://code.visualstudio.com/download) as our editor, [Alire](https://alire.ada.dev/) as our IDE, and AdaCore as our compiler. 
 
-### Programming with Visual Studio Code and GNAT
+#### 1.1. Programming with Visual Studio Code and GNAT
 
 If your operating system is Windows 10 or 11, download the compiler ```gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases).
 
-### Programming using GNAT Studio only
+#### 1.2. Programming using GNAT Studio only
 
 For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder and download the file ‘GNAT_CpC.zip’
 
