@@ -4,7 +4,7 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/0a87af1b-35b8-4a8c-b3df-47c717c9434f" width="200" height="200" /> <img width="400" height="200" alt="gnatstudio-main" src="https://github.com/user-attachments/assets/5ddb8256-c372-4925-9b60-9cfb57f7f858" /> </p>
 
-> **Note:** Process tested with Windows 11 on 31th May 2025.
+> **Note:** Process tested with Windows 11 on 13th March 2026.
 
 *Author: Fernando Cañadas Aránega, PhD student in Agriculture Robotics at the University of Almeria, Spain.*
 
