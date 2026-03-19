@@ -1,6 +1,6 @@
 ## ADA for Computer Control Students - University of Almería - B. in Electronic Engineering and Industrial Automation - 2025/2026
 
-Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11)and Linux (Not available for MAC).
+Repository with the necessary packages and instructions for programming ADA in VisualStudioCode on Windows (10 and 11) and Linux (Not available for MAC).
 
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/0a87af1b-35b8-4a8c-b3df-47c717c9434f" width="200" height="200" /> <img width="400" height="200" alt="gnatstudio-main" src="https://github.com/user-attachments/assets/5ddb8256-c372-4925-9b60-9cfb57f7f858" /> </p>
@@ -9,7 +9,7 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 > **Note:** Process tested with Windows 11 on 31th May 2025.
 
-*Author: Fernando Cañadas Aránega, PhD student in Robotics in agriculture at the University of Almeria, Spain.*
+*Author: Fernando Cañadas Aránega, PhD student in Agriculture Robotics at the University of Almeria, Spain.*
 
 *Gmail: fernando.ca@ual.es*
 
@@ -17,7 +17,15 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 # 1. Download Package
 
-Download all the necessary software to be used. We will use [VisualStudioCode](https://code.visualstudio.com/download) as a visualiser, [Alire](https://alire.ada.dev/) as manager and AdaCore as compiler. For the compiler, if your OS is Windows 10 or 11, download the file ```gnatstudio-25.0w-20240506-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases), and if it's Linux 18.04 or later, download the file ```GNAT_Studio-x86_64.AppImage``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases).
+We will use [Visual Studio Code](https://code.visualstudio.com/download) as our editor, [Alire](https://alire.ada.dev/) as our IDE, and AdaCore as our compiler. 
+
+## Programming with Visual Studio Code and GNAT
+
+If your operating system is Windows 10 or 11, download the compiler ```gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases).
+
+##  Programming using GNAT Studio only
+
+For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder and download the file ‘GNAT_CpC.zip’
 
 # 2. Package install
 
