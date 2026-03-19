@@ -20,7 +20,7 @@ We will use [Visual Studio Code](https://code.visualstudio.com/download) as our 
 
 #### 1.1. Programming with Visual Studio Code and GNAT
 
-If your operating system is Windows 10 or 11, download the compiler `gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases) and the visualizer [GNATSTUDIO](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=sharing). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
+If your operating system is Windows 10 or 11, download the compiler `gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases) and the visualizer [GNATSTUDIO](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=sharing). Also, download [Visual Studio Code](https://code.visualstudio.com/download) and [Alire](https://alire.ada.dev/). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
 
 #### 1.2. Programming using GNAT Studio only
 
