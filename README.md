@@ -53,31 +53,30 @@ Subsequently, run the image with the following commands:
 ```
 # 3. Add compiler addresses to OS (Windows 10 or 11 users only)
 
-Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program Files\Alire\bin `` (Note: These paths must appear exactly as shown. If you copy them directly from this repository, they are often copied incorrectly to the clipboard). Follow the steps below to add environment variables:
+Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program Files\Alire\bin`` (Note: These paths must appear exactly as shown. If you copy them directly from this repository, they are often copied incorrectly to the clipboard). Follow the steps below to add environment variables:
 
 1. Press Win + S and type ``Variables de entorno``.
-2. Click on ‘Edit system environment variables’.
+2. Click on ``Editar las variables de entorno del sistema``.
 3. Click on ``Variables de entorno...`` in the bottom right-hand corner.
 4. In the ``Variables de usuario para user`` section, find the variable named ``Path`` and select Edit.
 5. Click New.
 6. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` in system variables and save it.
-7. Ahora, entra en ``Variables para el entorno``, find the variable named ``Path`` and select Edit.
+7. Then, press ``Variables para el entorno``, find the variable named ``Path`` and select Edit.
 8. Click New.
 9. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` and Alire ``C:\Program Files\Alire\bin`` in user variables. Save it
-
-Verify that it has been installed correctly by pressing the Windows key, type ```cmd```, in the pop-up window, type ``gnatstudio`` and press Enter. If the compiler opens, the address has been added correctly.
 
 # 4. Configure VisualStudioCode with ADA compiler
 
 #### Create an ADA project
 
-First, create a folder on your desktop called ```Ada_project```. Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C:\Users\<your_user>). Now, navigate to that folder using the following command: `cd .\Desktop\Ada_project\`. Once you are in that directory, create a project by following these steps:
+First, create a folder on your desktop called ```Ada_project```. Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C:\Users\<your_user>). Now, navigate to that folder using ina Alire terminal with the following command: `cd .\Desktop\Ada_project\`. Once you are in that directory, create a project by following these steps:
 
 1. Create a project.
 ```
 alr init --bin project_name
 ```
-Espere unos segundos a que se instale msys2 de froma automatica.
+Please wait a few seconds for msys2 to install automatically.
+
 2. In the next action, press 2 and press Enter.
 ```
 Select the kind of crate you want to create:
@@ -110,7 +109,7 @@ You must return ```Success: Build finished successfully in x seconds.```
 
 Now, press the Windows key and type VisualStudio. In the pop-up program, follow the instructions below:
 
-1. Go to Extensions, search for ``` Ada & Spark```  and install it. Restart VSC by closing it and reopening it.
+1. Go to Extensions, search for ```Ada & Spark``` and install it. Restart VSC by closing it and reopening it.
 2. Go to File and open folder. Navigate to this folder ```C:\Users\<your_user>\Ada_project```.
 3. Wait a few seconds, then select the file you want to run from the search bar (Visual Studio will suggest the correct one).
 4. Open the src folder, and you will find a file called ``project_name.adb``. Open it by clicking on it and paste the following code:
