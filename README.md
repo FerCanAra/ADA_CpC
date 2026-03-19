@@ -19,11 +19,11 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 We will use [Visual Studio Code](https://code.visualstudio.com/download) as our editor, [Alire](https://alire.ada.dev/) as our IDE, and AdaCore as our compiler. 
 
-## Programming with Visual Studio Code and GNAT
+### Programming with Visual Studio Code and GNAT
 
 If your operating system is Windows 10 or 11, download the compiler ```gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases).
 
-##  Programming using GNAT Studio only
+### Programming using GNAT Studio only
 
 For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder and download the file ‘GNAT_CpC.zip’
 
@@ -31,18 +31,17 @@ For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/fol
 
 For Windows, simply double-click on the launcher and install the programs in the default path. For Linux, follow the commands below:
 
-Go to the download location of the ```GNAT_Studio-x86_64.AppImage``` file and open a terminal. Run this command:
+Go to the download location of the ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz```, unzip the file, go into the directory and open a terminal. Run this command:
 ```
-chmod -x GNAT_Studio-x86_64.AppImage
+chmod -x doinstall
 ```
 Subsequently, run the image with the following commands:
 ```
-./GNAT_Studio-x86_64.AppImage --appimage-extract
-./squashfs-root/usr/doinstall
+./doinstall
 ```
 # 3. Add compiler addresses to OS (Windows 10 or 11 users only)
 
-Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program Files\Alire\bin``. Follow the steps below to add environment variables:
+Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program/_Files\Alire\bin``. Follow the steps below to add environment variables:
 
 1. Press Win + S and type ``Variables de entorno``.
 2. Click on ‘Edit system environment variables’.
