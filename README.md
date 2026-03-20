@@ -20,13 +20,13 @@ We will use [Visual Studio Code](https://code.visualstudio.com/download) as our 
 
 #### 1.1. Programming with Visual Studio Code and GNAT
 
-If your operating system is Windows 10 or 11, download the compiler `gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases) and the visualizer [GNATSTUDIO](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=sharing). Also, download [Visual Studio Code](https://code.visualstudio.com/download) and [Alire](https://alire.ada.dev/). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore - GitHub](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
+If your operating system is Windows 10 or 11, download the compiler `gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases) and the visualizer [GNATSTUDIO](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=sharing) using your Gmail address ```@inlumine.es```. Also, download [Visual Studio Code](https://code.visualstudio.com/download) and [Alire](https://alire.ada.dev/). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
 
 #### 1.2. Programming using GNAT Studio only
 
-For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder and download the file ‘GNAT_CpC.zip’. This interface is already fully configured; you simply need to follow these steps:
+For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder using your Gmail address ```@inlumine.es``` and download the file *‘GNAT_CpC.zip’*. This interface is already fully configured; you simply need to follow these steps:
 
-1. Unzip GNAT_CpC.zip IN ```C:```.
+1. Unzip *'GNAT_CpC.zip'* IN ```C:```.
 2. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
 3. In the application window, click ```Create New Project```.
 4. Select ```Simple Ada Project```.
@@ -39,7 +39,7 @@ You can skip straight to point 6.
 
 #### 2.1. For windows
 
-Double-click on the launcher of "AdaCore", "VSC" and "Alire", and install the programs in the default path. For "GNATSTUDIO", Unzip GNAT_CpC.zip IN ```C:```. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
+Double-click on the launcher of "AdaCore", "VSC" and "Alire", and install the programs in the default path. For "GNATSTUDIO", Unzip *'GNAT_CpC.zip'* IN ```C:```. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
 
 #### 2.2. For Linux
 
@@ -58,7 +58,7 @@ Locate the folder where you installed GNAT Studio and Alire. Generally, this wil
 1. Press Win + S and type ``Variables de entorno``.
 2. Click on ``Editar las variables de entorno del sistema``.
 3. Click on ``Variables de entorno...`` in the bottom right-hand corner.
-4. In the ``Variables de usuario para user`` section, find the variable named ``Path`` and select Edit.
+4. In the ``Variables de usuario para <user>`` section, find the variable named ``Path`` and select Edit.
 5. Click New.
 6. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` in system variables and save it.
 7. Then, press ``Variables para el entorno``, find the variable named ``Path`` and select Edit.
@@ -69,7 +69,7 @@ Locate the folder where you installed GNAT Studio and Alire. Generally, this wil
 
 #### Create an ADA project
 
-First, create a folder on your desktop called ```Ada_project```. Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C:\Users\<your_user>). Now, navigate to that folder using ina Alire terminal with the following command: `cd .\Desktop\Ada_project\`. Once you are in that directory, create a project by following these steps:
+First, create a folder on your desktop called ```Ada_project```. Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C:\Users\<your_user>). Now, navigate to that folder using ina Alire terminal with the following command: `cd .\Desktop\Ada_project\` (If you are logged into OneDrive, the command to navigate to the folder is `cd .\Desktop\OneDrive\Ada_project\`). Once you are in that directory, create a project by following these steps:
 
 1. Create a project.
 ```
@@ -101,9 +101,9 @@ Press Enter with the following options, until you get ```Success: project_name i
 4. Compile the project
 Enter the folder created with ```cd project_name``` and run:
 ```
-alr build
+alr build or alr build --force 
 ```
-You must return ```Success: Build finished successfully in x seconds.``` 
+or ```alr build --force``` if the output is that it does not exist in *.toml*. You must return ```Success: Build finished successfully in x seconds.``` 
 
 #### Configure VisualStudioCode (VSC)
 
