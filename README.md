@@ -105,7 +105,7 @@ alr build
 ```
 You must return ```Success: Build finished successfully in x seconds.``` 
 
-> **Note: If you see an error message saying ```ERROR: No index.toml found in index```, the libraries have not been installed correctly. In that case, run ```alr index --reset```.**
+> **Note: If you encounter an error, scroll down to the bottom of the page to find the solution.**
 
 #### Configure VisualStudioCode (VSC)
 
@@ -123,6 +123,8 @@ begin
     Put_Line("I am going to approve CpC :) ");
 end project_name;
 ```
+> **Note: If you encounter an error, scroll down to the bottom of the page to find the solution.**
+
 3. Execute the project. This can be done in two ways:
    a) You can press the ‘Play’ button and watch the terminal that appears:
    b) Run the following command in the Alire terminal:
@@ -130,6 +132,8 @@ end project_name;
 alr run
 ```
 In the terminal, the following should appear ```I am going to approve CpC```.
+
+> **Note: If you encounter an error, scroll down to the bottom of the page to find the solution.**
 
 # 5. Change the main
 
