@@ -101,9 +101,13 @@ Press Enter with the following options, until you get ```Success: project_name i
 4. Compile the project
 Enter the folder created with ```cd project_name``` and run:
 ```
-alr build or alr build --force 
+alr build
 ```
-or ```alr build --force``` if the output is that it does not exist in *.toml*. You must return ```Success: Build finished successfully in x seconds.``` 
+You must return ```Success: Build finished successfully in x seconds.``` 
+
+> **Note: If you see an error message saying ```ERROR: No index.toml found in index```, the libraries have not been installed correctly. In that case, run ```alr index --reset```.**
+
+or ```alr build --force``` if the output is that it does not exist in *.toml*.
 
 #### Configure VisualStudioCode (VSC)
 
