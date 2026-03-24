@@ -69,7 +69,7 @@ Locate the folder where you installed GNAT Studio and Alire. Generally, this wil
 
 #### Create an ADA project
 
-First, create a folder on your desktop called ```Ada_project```. Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C:\Users\<your_user>). Now, navigate to that folder using ina Alire terminal with the following command: `cd .\Desktop\Ada_project\` (If you are logged into OneDrive, the command to navigate to the folder is `cd .\Desktop\OneDrive\Ada_project\`). Once you are in that directory, create a project by following these steps:
+First, create a folder on your desktop called ```Ada_project```. Press the Windows key, type ```Alire``` and, in the pop-up window, go through the following codes (By default, it is in C:\Users\<your_user>). Now, navigate to that folder using ina Alire terminal with the following command: `cd .\Desktop\Ada_project\` (If you are logged into OneDrive, the command to navigate to the folder is `cd .\OneDrive\Desktop\Ada_project\`). Once you are in that directory, create a project by following these steps:
 
 1. Create a project.
 ```
