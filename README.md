@@ -167,5 +167,5 @@ The main warnings that will be displayed on the screen are described:
 # Typical ERROR:
 
 1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly. In that case, run ```alr index --reset```.**
-
-
+2. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
+3.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
