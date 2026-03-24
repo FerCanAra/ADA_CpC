@@ -164,5 +164,8 @@ The main warnings that will be displayed on the screen are described:
 6. ```useless assignment to "Lectura", value overwritten at line 230 [-gnatwm]```: The same variable is simply defined twice.
 7. ```no entities of "Ada.Numerics.Elementary_Functions" are referenced [-gnatwu]``` follow by ```use clause for package "Elementary_Functions" has no effect [-gnatwu]```: A library is declared but not used.
 
+# Typical ERROR:
+
+1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly. In that case, run ```alr index --reset```.**
 
 
