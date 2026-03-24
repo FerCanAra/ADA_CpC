@@ -107,8 +107,6 @@ You must return ```Success: Build finished successfully in x seconds.```
 
 > **Note: If you see an error message saying ```ERROR: No index.toml found in index```, the libraries have not been installed correctly. In that case, run ```alr index --reset```.**
 
-or ```alr build --force``` if the output is that it does not exist in *.toml*.
-
 #### Configure VisualStudioCode (VSC)
 
 Now, press the Windows key and type VisualStudio. In the pop-up program, follow the instructions below:
