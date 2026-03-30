@@ -182,8 +182,6 @@ To run this project, you have two options:
 
 </details>
 
-# Typical ERROR:
-
 <details>
 <summary>Error</summary>
 
