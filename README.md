@@ -26,6 +26,9 @@ If your operating system is Windows 10 or 11, download the compiler `gnatstudio-
 
 For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder using your Gmail address ```@inlumine.es``` and download the file *‘GNAT_CpC.zip’*. This interface is already fully configured; you simply need to follow these steps:
 
+<details>
+<summary>Steps</summary>
+   
 1. Unzip *'GNAT_CpC.zip'* IN ```C:```.
 2. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
 3. In the application window, click ```Create New Project```.
@@ -34,6 +37,8 @@ For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/fol
 6. Click ```Apply```.
    
 You can skip straight to point 6.
+
+</details>
 
 # 2. Package install
 
@@ -55,6 +60,9 @@ Subsequently, run the image with the following commands:
 
 Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program Files\Alire\bin`` (Note: These paths must appear exactly as shown. If you copy them directly from this repository, they are often copied incorrectly to the clipboard). Follow the steps below to add environment variables:
 
+<details>
+<summary>Environment Variable Configuration</summary>
+
 1. Press Win + S and type ``Variables de entorno``.
 2. Click on ``Editar las variables de entorno del sistema``.
 3. Click on ``Variables de entorno...`` in the bottom right-hand corner.
@@ -64,6 +72,8 @@ Locate the folder where you installed GNAT Studio and Alire. Generally, this wil
 7. Then, press ``Variables para el entorno``, find the variable named ``Path`` and select Edit.
 8. Click New.
 9. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` and Alire ``C:\Program Files\Alire\bin`` in user variables. Save it
+
+</details>
 
 # 4. Configure VisualStudioCode with ADA compiler
 
@@ -159,7 +169,9 @@ To run this project, you have two options:
 
 # Typical warnings (not errors, just recommendations for improvement):
 
-The main warnings that will be displayed on the screen are described:
+<details>
+<summary>The main warnings</summary>
+
 1. ```(style) space required [-gnatyt]: ```: They indicate that a space is missing in the code. For example, ```:Steering_Angle:=Steering_Angle+1.0;```: should be written ```:Steering_Angle := Steering_Angle + 1.0;```:.
 2. ```(style) this line is too long [-gnatyM]```: Indicate that a line exceeds the character limit (default 80). To solve this, split the line into several lines.
 3. ```variable "Hum" is not referenced [-gnatwu]```: It is defined, but not used.
@@ -168,8 +180,15 @@ The main warnings that will be displayed on the screen are described:
 6. ```useless assignment to "Lectura", value overwritten at line 230 [-gnatwm]```: The same variable is simply defined twice.
 7. ```no entities of "Ada.Numerics.Elementary_Functions" are referenced [-gnatwu]``` follow by ```use clause for package "Elementary_Functions" has no effect [-gnatwu]```: A library is declared but not used.
 
+</details>
+
 # Typical ERROR:
+
+<details>
+<summary>The main error</summary>
 
 1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly. In that case, run `alr index --reset-community`. If it doesn't recognize the `reset` command, delete ```~/.config/alire``` and run ```alire toolchain --select```. [link](https://github.com/alire-project/alire/issues/1242)**
 2. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
 3.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
+
+</details>
