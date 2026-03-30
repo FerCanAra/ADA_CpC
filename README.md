@@ -167,10 +167,10 @@ To run this project, you have two options:
 
 3. For users who only use GnatStudio: Click on the pencil icon just above your main folder, go to ```main```, click on ```-``` to delete the existing entry, and add the new one by clicking on ```+```(note: there should only be one entry under “Main Files”)
 
-# Typical warnings (not errors, just recommendations for improvement):
+# Typical warnings and errors:
 
 <details>
-<summary>The main warnings</summary>
+<summary>Warnings</summary>
 
 1. ```(style) space required [-gnatyt]: ```: They indicate that a space is missing in the code. For example, ```:Steering_Angle:=Steering_Angle+1.0;```: should be written ```:Steering_Angle := Steering_Angle + 1.0;```:.
 2. ```(style) this line is too long [-gnatyM]```: Indicate that a line exceeds the character limit (default 80). To solve this, split the line into several lines.
@@ -185,7 +185,7 @@ To run this project, you have two options:
 # Typical ERROR:
 
 <details>
-<summary>The main error</summary>
+<summary>Error</summary>
 
 1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly. In that case, run `alr index --reset-community`. If it doesn't recognize the `reset` command, delete ```~/.config/alire``` and run ```alire toolchain --select```. [link](https://github.com/alire-project/alire/issues/1242)**
 2. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
