@@ -185,7 +185,7 @@ To run this project, you have two options:
 <details>
 <summary>Error</summary>
 
-1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly. In that case, run `alr index --reset-community`. If it doesn't recognize the `reset` command, delete ```~/.config/alire``` and run ```alire toolchain --select```. [link](https://github.com/alire-project/alire/issues/1242)**
+1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly. In that case, run `alr index --reset-community`. If it doesn't recognize the `reset` command, delete ```~/.config/alire``` and run ```alire toolchain --select```. **[link](https://github.com/alire-project/alire/issues/1242)**
 2. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
 3.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
 
