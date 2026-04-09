@@ -185,8 +185,14 @@ To run this project, you have two options:
 <details>
 <summary>Error</summary>
 
-1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly (Probability, Git). In this case, install [git](https://git-scm.com/install/windows) for Windows, run the command ```alr toolchain --select gnat_native``` and select version 15.2.0. You will also need to select the gprbuild version by running ```alr toolchain --select gprbuild``` and selecting version 22.0.1. Once these commands return no errors, run ```alr build``` on the project.
-2. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
-3.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
+1. ```ERROR: No index.toml found in index```: the libraries have not been installed correctly (Probability, Git). In this case, install [git](https://git-scm.com/install/windows) for Windows, run the command the follow command:
+```
+alr index --reset-community
+alr toolchain --select gnat_native
+alr toolchain --select grpbuild
+```
+You should have gnat_native version 15.2.0 and gprbuild version 22.0.1. Once these commands return no errors, run ```alr build``` on the project.
+5. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
+6.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
 
 </details>
