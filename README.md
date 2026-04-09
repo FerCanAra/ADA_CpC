@@ -192,7 +192,8 @@ alr toolchain --select gnat_native
 alr toolchain --select grpbuild
 ```
 You should have gnat_native version 15.2.0 and gprbuild version 22.0.1. Once these commands return no errors, run ```alr build``` on the project.
-5. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
-6.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
+
+2. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
+3.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
 
 </details>
