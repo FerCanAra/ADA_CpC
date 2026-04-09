@@ -18,11 +18,14 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 We will use [Visual Studio Code](https://code.visualstudio.com/download) as our editor, [Alire](https://alire.ada.dev/) as our IDE, and AdaCore as our compiler. 
 
-#### 1.1. Programming with Visual Studio Code and GNAT
+<details>
+<summary> 1.1. Programming with Visual Studio Code and GNAT</summary>
 
 If your operating system is Windows 10 or 11, download the compiler `gnatstudio-26.0w-20250417-x86_64-windows64-bin.exe` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases) and the visualizer [GNATSTUDIO](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=sharing) using your Gmail address ```@inlumine.es```. Also, download [Visual Studio Code](https://code.visualstudio.com/download) and [Alire](https://alire.ada.dev/). If you are using Linux 18.04 or later, download the file ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz``` from [AdaCore](https://github.com/AdaCore/gnatstudio/releases). To configure the environment, proceed to step 2.
+</details>
 
-#### 1.2. Programming using GNAT Studio only
+<details>
+<summary>1.2. Programming using GNAT Studio only</summary>
 
 For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder using your Gmail address ```@inlumine.es``` and download the file *‘GNAT_CpC.zip’*. This interface is already fully configured; you simply need to follow these steps:
 
@@ -38,6 +41,7 @@ For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/fol
    
 You can skip straight to point 6.
 
+</details>
 </details>
 
 # 2. Package install
