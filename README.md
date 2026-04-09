@@ -28,9 +28,6 @@ If your operating system is Windows 10 or 11, download the compiler `gnatstudio-
 <summary>1.2. Programming using GNAT Studio only</summary>
 
 For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/folders/19Z8nmJTd6RYPgOSX6STBaHeZuFV4g4uQ?usp=drive_link) Drive folder using your Gmail address ```@inlumine.es``` and download the file *‘GNAT_CpC.zip’*. This interface is already fully configured; you simply need to follow these steps:
-
-<details>
-<summary>Steps</summary>
    
 1. Unzip *'GNAT_CpC.zip'* IN ```C:```.
 2. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
@@ -42,15 +39,16 @@ For Windows 10 or 11 users only: go to [this](https://drive.google.com/drive/fol
 You can skip straight to point 6.
 
 </details>
-</details>
 
 # 2. Package install
 
-#### 2.1. For windows
+<details>
+<summary> 2.1. For windows</summary>
 
 Double-click on the launcher of "AdaCore", "VSC" and "Alire", and install the programs in the default path. For "GNATSTUDIO", Unzip *'GNAT_CpC.zip'* IN ```C:```. Navigate to ```C:\GNAT\2021\bin\``` and locate ```gnatstudio.exe```. Run it (tip: create a shortcut to this file and place it on your desktop).
-
-#### 2.2. For Linux
+</details>
+<details>
+<summary> 2.2. For Linux</summary>
 
 Go to the download location of the ```gnatstudio-26.0w-20250417-x86_64-linux-bin.tar.gz```, unzip the file, go into the directory and open a terminal. Run this command:
 ```
@@ -60,12 +58,10 @@ Subsequently, run the image with the following commands:
 ```
 ./doinstall
 ```
+</details>
 # 3. Add compiler addresses to OS (Windows 10 or 11 users only)
 
 Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program Files\Alire\bin`` (Note: These paths must appear exactly as shown. If you copy them directly from this repository, they are often copied incorrectly to the clipboard). Follow the steps below to add environment variables:
-
-<details>
-<summary>Environment Variable Configuration</summary>
 
 1. Press Win + S and type ``Variables de entorno``.
 2. Click on ``Editar las variables de entorno del sistema``.
@@ -77,7 +73,6 @@ Locate the folder where you installed GNAT Studio and Alire. Generally, this wil
 8. Click New.
 9. Add the full path to the GNAT Studio bin directory ``C:\GNATSTUDIO\bin`` and Alire ``C:\Program Files\Alire\bin`` in user variables. Save it
 
-</details>
 
 # 4. Configure VisualStudioCode with ADA compiler
 
@@ -195,7 +190,7 @@ alr index --reset-community
 alr toolchain --select gnat_native
 alr toolchain --select grpbuild
 ```
-You should have gnat_native version 15.2.0 and gprbuild version 22.0.1. Once these commands return no errors, run ```alr build``` on the project.
+> **Note:**: You should have gnat_native version 15.2.0 and gprbuild version 22.0.1. Once these commands return no errors, run ```alr build``` on the project.
 
 2. ```project_name.exe does not exist```: The project was compiled on another computer. Create a project using Alire as described in point 4, then go to the src directory and copy the .adb files there. Navigate to that location in Alire and run ```alr build```.
 3.  ```Errors related to .gpr ```: The environment variables are not set up correctly. Go back to step 3 and check that the variables are correct.
