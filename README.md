@@ -59,6 +59,7 @@ Subsequently, run the image with the following commands:
 ./doinstall
 ```
 </details>
+
 # 3. Add compiler addresses to OS (Windows 10 or 11 users only)
 
 Locate the folder where you installed GNAT Studio and Alire. Generally, this will be something like ``C:\GNATSTUDIO\bin`` and ``C:\Program Files\Alire\bin`` (Note: These paths must appear exactly as shown. If you copy them directly from this repository, they are often copied incorrectly to the clipboard). Follow the steps below to add environment variables:
