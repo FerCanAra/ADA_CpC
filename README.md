@@ -14,6 +14,13 @@ Repository with the necessary packages and instructions for programming ADA in V
 
 *LICENCE: Intellectual property patent no. 2601204317192 held by [Safe Creative](https://www.safecreative.org/es)*
 
+<a href="https://arm.ual.es/arm-group/"> 
+  <img src="docs/arm-logo2.jpg" width="150" alt="ARM Group Logo" /> 
+</a>
+<a href="https://www.linkedin.com/company/automatic-robotics-and-mechatronics-research-group/"> 
+  <img src="docs/logo2.png" width="55" alt="LinkedIn Logo" /> 
+</a>
+
 # 1. Download Package
 
 We will use [Visual Studio Code](https://code.visualstudio.com/download) as our editor, [Alire](https://alire.ada.dev/) as our IDE, and AdaCore as our compiler. 
